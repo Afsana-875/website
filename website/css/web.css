@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: rgb(91, 95, 95);
+    text-align: center;
+    padding: 15px;
+    color: aqua;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 900;
+   text-transform: capitalize;
+}
+.nav ul{
+   
+    background: rgb(20, 19, 20);
+    list-style-type: none; 
+    overflow: hidden;
+
+
+}
+.nav a{
+    color: rgb(197, 117, 11);
+    text-decoration: none;
+    padding: 30px;
+    display: block;
+    font-size: 36px;
+  
+  
+   
+}
+.nav a:hover{
+background: tomato;
+}
+.nav li{
+    float: left;
+}
+aside{
+    width: 33%;
+    float: left;
+    padding: 10px;
+    background: rgb(195, 223, 223);
+   }
+   section{
+    width: 33%;
+    float: left; 
+    padding: 10px;
+    background: rgb(92, 94, 104);
+   
+   }
+   article{
+       width: 34%;
+       float: left; 
+       padding: 10px;
+       background: rgb(92, 101, 104);
+    
+   }
+  
+   footer{
+    background: rgb(32, 100, 100);
+    text-align: center;
+    padding: 15px;
+    color: rgb(34, 6, 34);
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 900;
+   text-transform: capitalize;
+   display: block;
+   clear: both;
+}
+aside:hover{
+    background: rgb(125, 226, 8);
+}
+section:hover{
+    background: rgb(168, 34, 10);
+}
+article:hover{
+    background: rgb(115, 6, 158);
+}
+@media screen and(max-width:600px){
+    aside,section,article{
+        width: 100%;
+    }
+}
+/* end */
+.pic{
+    display: inline-block;
+    border: 3px solid red;
+    margin: 20px 50px;
+    padding: 10px 10px;
+
+}
+.pic .des{
+    padding: 10px;
+    text-align: center;
+    background: turquoise;
+}
+.pic:hover{
+    border: 5px solid tomato;
+}
+.pic img{
+    width: 300px;
+    height: auto;
+    padding: 50px;
+    padding-bottom: 10px;
+}
+ .pic img:hover{
+    background-image: url(../image/b2.jpeg);
+    background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+ }
+ /* box */
+ .box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 50%;
+ }
+ .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 25px;
+    padding: 20px;
+    border: 10px solid teal;
+ }
+ #box1{
+    background: tan;
+ }
+ #box2{
+    background: rgb(172, 103, 14);
+ }
+ #box3{
+    background: rgb(209, 197, 180);
+ }
+ #box4{
+    background: rgb(174, 210, 140);
+ }
+ #box5{
+    background: rgb(208, 140, 210);
+ }
+ #box1:hover{
+    background: rgb(113, 32, 189);
+ }
+ #box2:hover{
+    background: rgb(180, 84, 5);
+ }
+ #box3:hover{
+    background: rgb(204, 9, 42);
+ }
+ #box4:hover{
+    background: rgb(7, 221, 35);
+ }
+ #box5:hover{
+    background: rgb(29, 8, 218);
+ }
+ /* transformation */
+ .boxa{
+    width: 600px;
+    height: 300px;
+    border: 10px solid rgb(5, 5, 5);
+    text-align: center;
+    font-size: 13em;
+    padding: 10px;
+   margin: 120px  auto;
+   
+    color: rgb(182, 0, 182);
+    transform: translate(200px) rotateZ(45deg) scale(0.5);
+ 
+ }
+ #box11{
+    background: tan;
+ }
+ #box22{
+    background: rgb(66, 66, 65);
+ }
+ #box33{
+    background: rgb(107, 107, 14);
+ }
+ #box33:hover{
+    background: teal;
+ }
+ #box22:hover{
+    background: tomato;
+ }
+ #box11:hover{
+    background: aqua;
+ }
+ /* BOXB */
+ .boxb{
+    width: 340px;
+    height: 300px;
+    border: 10px solid rgb(38, 11, 241);
+    text-align: center;
+    font-size: 13em;
+    padding: 10px;
+   margin: 120px  auto;
+   
+    color: rgb(156, 140, 156);
+    transform: translate(200px) rotateZ(45deg) scale(1.25); 
+ }
+ #boxm{
+    background: tan;
+ }
+ #boxn{
+    background: rgb(31, 1, 11);
+ }
+ #boxo{
+    background: rgb(230, 60, 9);
+ }
+ #boxp{
+    background: rgb(107, 107, 14);
+ }
+ #boxp:hover{
+    background: rgb(14, 107, 30);
+ }
+ #boxo:hover{
+    background: rgb(176, 36, 204);
+ }
+ #boxn:hover{
+    background: rgb(194, 4, 178);
+ }
+ #boxm:hover{
+    background: rgb(184, 223, 13);
+ }
